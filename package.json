@@ -10,8 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@digitalbazaar/did-io": "^2.0.0",
+    "@digitalbazaar/did-method-key": "^5.2.0",
+    "@digitalbazaar/did-method-web": "^1.0.1",
+    "@digitalbazaar/ed25519-multikey": "^1.1.0",
+    "@earthstar/earthstar": "npm:@jsr/mikebryant__earthstar@11.0.0-beta.3+hack5",
+    "@std/async": "npm:@jsr/std__async@^0.224.1",
+    "@std/encoding": "npm:@jsr/std__encoding@^0.224.3",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
