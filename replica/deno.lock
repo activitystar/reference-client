@@ -1,0 +1,167 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@earthstar/meadowcap@^0.6.3": "jsr:@earthstar/meadowcap@0.6.3",
+      "jsr:@earthstar/willow-utils@^1.0.0": "jsr:@earthstar/willow-utils@1.0.2",
+      "jsr:@earthstar/willow-utils@^1.0.2": "jsr:@earthstar/willow-utils@1.0.2",
+      "jsr:@earthstar/willow@^0.4.0": "jsr:@earthstar/willow@0.4.0",
+      "jsr:@earthstar/willow@^0.5.1": "jsr:@earthstar/willow@0.5.1",
+      "jsr:@korkje/fifo@^0.2.4": "jsr:@korkje/fifo@0.2.4",
+      "jsr:@mikebryant/earthstar@11.0.0-beta.3+hack5": "jsr:@mikebryant/earthstar@11.0.0-beta.3+hack5",
+      "jsr:@noble/ed25519@^2.1.0": "jsr:@noble/ed25519@2.1.0",
+      "jsr:@std/assert@^0.224.0": "jsr:@std/assert@0.224.0",
+      "jsr:@std/assert@^0.225.2": "jsr:@std/assert@0.225.3",
+      "jsr:@std/assert@^0.226.0": "jsr:@std/assert@0.226.0",
+      "jsr:@std/bytes@^0.224.0": "jsr:@std/bytes@0.224.0",
+      "jsr:@std/crypto@^0.224.0": "jsr:@std/crypto@0.224.0",
+      "jsr:@std/data-structures@^0.224.0": "jsr:@std/data-structures@0.224.1",
+      "jsr:@std/encoding": "jsr:@std/encoding@0.224.3",
+      "jsr:@std/encoding@^0.224.0": "jsr:@std/encoding@0.224.3",
+      "jsr:@std/encoding@^0.224.1": "jsr:@std/encoding@0.224.3",
+      "jsr:@std/fs@^0.229.1": "jsr:@std/fs@0.229.1",
+      "jsr:@std/path@^0.225.1": "jsr:@std/path@0.225.2",
+      "npm:@noble/curves@^1.4.0": "npm:@noble/curves@1.4.0",
+      "npm:hash-wasm@^4.11.0": "npm:hash-wasm@4.11.0"
+    },
+    "jsr": {
+      "@earthstar/meadowcap@0.6.3": {
+        "integrity": "e150736d293105d3abf1f1ee8c3bf0cf36986ab08e04ae9057cfbc73707b108a",
+        "dependencies": [
+          "jsr:@earthstar/willow-utils@^1.0.0"
+        ]
+      },
+      "@earthstar/willow-utils@1.0.2": {
+        "integrity": "09c08721a249f9a609f9250ccbf1fb40e9269bf68fc827cb063ee74448da35e1"
+      },
+      "@earthstar/willow@0.4.0": {
+        "integrity": "e10dfe2404aabdb3f6f9a158f1f6f16b042cdb0ce73e912ef382e5bc1374080e",
+        "dependencies": [
+          "jsr:@std/data-structures@^0.224.0",
+          "jsr:@std/encoding@^0.224.1"
+        ]
+      },
+      "@earthstar/willow@0.5.1": {
+        "integrity": "a87cff602c148d5d027a728544d9e4258802aa5f364e970b86027639cf2a9e6b",
+        "dependencies": [
+          "jsr:@korkje/fifo@^0.2.4",
+          "jsr:@std/data-structures@^0.224.0",
+          "jsr:@std/encoding@^0.224.1"
+        ]
+      },
+      "@korkje/fifo@0.2.4": {
+        "integrity": "cd8ff3edf686dcfd0b26d4774705d6a080312afb666d93f3a90d3fc808df41ba"
+      },
+      "@mikebryant/earthstar@11.0.0-beta.3+hack2": {
+        "integrity": "3fa9745d56b801e010eed9842bf669bd71707c5f214a2b4af0bf18ad9d09bd79",
+        "dependencies": [
+          "jsr:@earthstar/meadowcap@^0.6.3",
+          "jsr:@earthstar/willow-utils@^1.0.0",
+          "jsr:@earthstar/willow@^0.4.0",
+          "jsr:@noble/ed25519@^2.1.0",
+          "jsr:@std/bytes@^0.224.0",
+          "jsr:@std/crypto@^0.224.0",
+          "jsr:@std/encoding@^0.224.1",
+          "jsr:@std/fs@^0.229.1",
+          "jsr:@std/path@^0.225.1",
+          "npm:@noble/curves@^1.4.0",
+          "npm:hash-wasm@^4.11.0"
+        ]
+      },
+      "@mikebryant/earthstar@11.0.0-beta.3+hack5": {
+        "integrity": "e5a7ecaf5d4aaef7d507847e55b273471da1904a6a536950cb3e0a1adbc2ada5",
+        "dependencies": [
+          "jsr:@earthstar/meadowcap@^0.6.3",
+          "jsr:@earthstar/willow-utils@^1.0.2",
+          "jsr:@earthstar/willow@^0.5.1",
+          "jsr:@noble/ed25519@^2.1.0",
+          "jsr:@std/bytes@^0.224.0",
+          "jsr:@std/crypto@^0.224.0",
+          "jsr:@std/encoding@^0.224.1",
+          "jsr:@std/fs@^0.229.1",
+          "jsr:@std/path@^0.225.1",
+          "npm:@noble/curves@^1.4.0",
+          "npm:hash-wasm@^4.11.0"
+        ]
+      },
+      "@noble/ed25519@2.1.0": {
+        "integrity": "59a6ad395a37a0d065f6a2771e56fe52ea4bd9070c77bdaca5c475f5184412cc"
+      },
+      "@std/assert@0.224.0": {
+        "integrity": "8643233ec7aec38a940a8264a6e3eed9bfa44e7a71cc6b3c8874213ff401967f"
+      },
+      "@std/assert@0.225.3": {
+        "integrity": "b3c2847aecf6955b50644cdb9cf072004ea3d1998dd7579fc0acb99dbb23bd4f"
+      },
+      "@std/assert@0.226.0": {
+        "integrity": "0dfb5f7c7723c18cec118e080fec76ce15b4c31154b15ad2bd74822603ef75b3"
+      },
+      "@std/bytes@0.224.0": {
+        "integrity": "a2250e1d0eb7d1c5a426f21267ab9bdeac2447fa87a3d0d1a467d3f7a6058e49"
+      },
+      "@std/crypto@0.224.0": {
+        "integrity": "154ef3ff08ef535562ef1a718718c5b2c5fc3808f0f9100daad69e829bfcdf2d",
+        "dependencies": [
+          "jsr:@std/assert@^0.224.0",
+          "jsr:@std/encoding@^0.224.0"
+        ]
+      },
+      "@std/data-structures@0.224.1": {
+        "integrity": "266365f90014e5c52bccf1eadd65f7782a2af2c84e4052ef8316698a3572cac3"
+      },
+      "@std/encoding@0.224.3": {
+        "integrity": "5e861b6d81be5359fad4155e591acf17c0207b595112d1840998bb9f476dbdaf"
+      },
+      "@std/fs@0.229.1": {
+        "integrity": "38d3fb31f0ca0a8c1118e039939188f32e291a3f7f17dc0868fec22024bdfadd",
+        "dependencies": [
+          "jsr:@std/assert@^0.225.2",
+          "jsr:@std/path@^0.225.1"
+        ]
+      },
+      "@std/path@0.225.2": {
+        "integrity": "0f2db41d36b50ef048dcb0399aac720a5348638dd3cb5bf80685bf2a745aa506",
+        "dependencies": [
+          "jsr:@std/assert@^0.226.0"
+        ]
+      }
+    },
+    "npm": {
+      "@noble/curves@1.4.0": {
+        "integrity": "sha512-p+4cb332SFCrReJkCYe8Xzm0OWi4Jji5jVdIZRL/PmacmDkFNw6MrrV+gGpiPxLHbV+zKFRywUWbaseT+tZRXg==",
+        "dependencies": {
+          "@noble/hashes": "@noble/hashes@1.4.0"
+        }
+      },
+      "@noble/hashes@1.4.0": {
+        "integrity": "sha512-V1JJ1WTRUqHHrOSh597hURcMqVKVGL/ea3kv0gSnEdsEZ0/+VyPghM1lMNGc00z7CIQorSvbKpuJkxvuHbvdbg==",
+        "dependencies": {}
+      },
+      "hash-wasm@4.11.0": {
+        "integrity": "sha512-HVusNXlVqHe0fzIzdQOGolnFN6mX/fqcrSAOcTBXdvzrXVHwTz11vXeKRmkR5gTuwVpvHZEIyKoePDvuAR+XwQ==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {
+    "https://deno.land/std@0.102.0/_util/assert.ts": "2f868145a042a11d5ad0a3c748dcf580add8a0dbc0e876eaa0026303a5488f58",
+    "https://deno.land/std@0.102.0/_util/os.ts": "4bfbbb53cf87ec0c0f562b5b836c4d5392faa0365a30580cdfd3acb9944dcca1",
+    "https://deno.land/std@0.102.0/path/_constants.ts": "1247fee4a79b70c89f23499691ef169b41b6ccf01887a0abd131009c5581b853",
+    "https://deno.land/std@0.102.0/path/_interface.ts": "1fa73b02aaa24867e481a48492b44f2598cd9dfa513c7b34001437007d3642e4",
+    "https://deno.land/std@0.102.0/path/_util.ts": "2e06a3b9e79beaf62687196bd4b60a4c391d862cfa007a20fc3a39f778ba073b",
+    "https://deno.land/std@0.102.0/path/common.ts": "eaf03d08b569e8a87e674e4e265e099f237472b6fd135b3cbeae5827035ea14a",
+    "https://deno.land/std@0.102.0/path/glob.ts": "697fec7edbada26ed12b696023646a28c3897370c94ef7a555d317494b8bc270",
+    "https://deno.land/std@0.102.0/path/mod.ts": "4465dc494f271b02569edbb4a18d727063b5dbd6ed84283ff906260970a15d12",
+    "https://deno.land/std@0.102.0/path/posix.ts": "b81974c768d298f8dcd2c720229639b3803ca4a241fa9a355c762fa2bc5ef0c1",
+    "https://deno.land/std@0.102.0/path/separator.ts": "8fdcf289b1b76fd726a508f57d3370ca029ae6976fcde5044007f062e643ff1c",
+    "https://deno.land/std@0.102.0/path/win32.ts": "f4a3d4a3f2c9fe894da046d5eac48b5e789a0ebec5152b2c0985efe96a9f7ae1"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@earthstar/willow-utils@1.0.2",
+      "jsr:@earthstar/willow@0.5.1",
+      "jsr:@mikebryant/earthstar@11.0.0-beta.3+hack5",
+      "jsr:@std/encoding"
+    ]
+  }
+}
